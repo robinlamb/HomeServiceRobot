@@ -9,7 +9,7 @@ This is the final project for my Udacity Robotics Software Engineer program.  It
 
 The my_robot package contains a robot that I modeled using URDF.  It contains Gazebo references to give the simulation color, and uses Gazebo plugins to simulate the lidar and RGBD sensors as well as differential drive.  The package also contains the simulated house that I modeled in Gazebo with the building editor, and my custom launch files and Rviz configurations.
 
-I created the map used for localization in this project using the[teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard) and the [slam_gmapping](http://wiki.ros.org/gmapping) ROS packages.  The teleop_twist_keyboard package allows you to control the robot with the computer keyboard.  The slam_gmapping package creates a 2-D map with SLAM using the robot's poses and the lidar.
+I created the map used for localization in this project using the [teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard) and the [slam_gmapping](http://wiki.ros.org/gmapping) ROS packages.  The teleop_twist_keyboard package allows you to control the robot with the computer keyboard.  The slam_gmapping package creates a 2-D map with SLAM using the robot's poses and the lidar.
 
 ![SLAM](https://github.com/robinlamb/HomeServiceRobot/blob/master/images/slam.png)
 
